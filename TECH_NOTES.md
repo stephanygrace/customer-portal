@@ -4,15 +4,29 @@
 This Customer Portal POC is a full-stack web app that allows customers to:
 
 1. **Login** using email+password or phone+password (JWT authentication).
+
+   [Login Screenshot](https://drive.google.com/file/d/17MY3F9UBlHCohhxsbazHhrBleXUsLBI2/view?usp=drive_link)
+
+
 2. **View Bookings**
    - List with color-coded status badges, vehicle info, dates, attachment count.
    - Clickable cards to see booking details.
    - Handles empty, loading, and error states.
+
+   [Homepage Screenshot](https://drive.google.com/file/d/1yvVl4TMjUPhsPCHBVkblbaYlw9D8uiHZ/view?usp=sharing)
+
 3. **Booking Details**
-   - Show full booking info: status, schedule, vehicle, address, billing, work done.
-   - View/download quotes and invoices as PDFs.
-   - See and send messages related to the booking.
-   - View and download attachments.
+   - Show full booking info: status, schedule, vehicle, address, billing, work done. [Booking Details Screenshot](https://drive.google.com/file/d/1Z642VDZeU7YT37_tDQby9CEZtY5OdjWK/view?usp=drive_link)
+   - View/download quotes and invoices as PDFs. [Quote Screenshot](https://drive.google.com/file/d/1ECOM3U3t0VTz_VGWQNZrTmoj-vtf61Iz/view?usp=sharing)
+   - See and send messages related to the booking. [Message Screenshot](https://drive.google.com/file/d/1WO1Tg0tErqvuc1-NNlSDFhtyAj98spfI/view?usp=drive_link)
+   - View and download attachments. [Downloaded PDF Screenshot](https://drive.google.com/file/d/1G5-l6NT-HILFO3_e6ce5bC0JDntWkoCL/view?usp=drive_link)
+
+   ---
+
+   You can also watch the full demo here:
+   [Recorded Demo of the Customer Portal](https://drive.google.com/file/d/18MFo3wJTNZPJltPwob5-LOowZRe9evEf/view?usp=sharing)
+
+
 
 **Tech Stack:**
 - **Frontend:** Next.js 14, TypeScript, Tailwind CSS, React hooks, localStorage for session.
